@@ -1,0 +1,243 @@
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../fonts/ProximaNova-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ProximaNova-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ProximaNova-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ProximaNova-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ProximaNova-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+ font-weight: normal;
+ font-style: normal;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	color: #848994;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "ProximaNova-Light", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #434444;
+ }
+
+ h1{
+	 font-size: 40px;
+	 padding: 7rem 0 6rem;
+ }
+
+.lead {
+	font-size: 16px;
+	/*font-weight: 400;*/
+}
+
+.intro-header {
+	padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 0px;
+	color: #f8f8f8;
+	background: url(../img/backgroung-intro-product.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 7%;
+}
+
+.intro-message #ms-logo{
+	margin: 0 auto;
+	max-width: 396px;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+/*.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}*/
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.section-divider-spacer{
+	border-top: .5px solid #848994;
+	width: 100%;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/banner-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+footer {
+	background-color: #1f2432;
+	padding: 2rem 0 2rem 4rem;
+}
+
+
+p.copyright {
+	margin: 15px 0 0;
+}
+
+/** Helpers**/
+
+.ms-content-image img{
+	margin: 0 auto;
+	/*min-height: 166px;*/
+}
+
+.ms-content-image .circle{
+	width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  border: 1px solid #848994;
+	margin: 0 auto;
+}
+
+.ms-content-image .circle img{
+
+}
+
+.content-section-download{
+	padding: 8rem 0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  display: flex;
+  align-items: center;
+}
+
+.content-section-header{
+	position: relative;
+  overflow: hidden;
+  height: 100%;
+	width: 100%;
+	background: url(../img/backgroung.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content-section-header nav ul li a h3{
+	color: #fff;
+}
+
+.content-section-header .list-inline > li {
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+
+}
+.content-section-header .list-inline > li:last-child {
+    padding-right: 0!important;
+
+}
